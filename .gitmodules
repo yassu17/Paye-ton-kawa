@@ -1,0 +1,9 @@
+[submodule "api-clients"]
+    path = api-clients
+    url = https://github.com/yassu17/api-clients.git
+[submodule "api-orders"]
+    path = api-orders
+    url = https://github.com/yassu17/api-orders.git
+[submodule "api-products"]
+    path = api-products
+    url = https://github.com/yassu17/api-products.git
