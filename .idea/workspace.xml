@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152a0db5-5be5-4b33-a398-00bd166372f7" name="Changes" comment="C">
-      <change beforePath="$PROJECT_DIR$/api-clients/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-clients/sonar-project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-clients" beforeDir="false" afterPath="$PROJECT_DIR$/api-clients" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-products/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-products/sonar-project.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api-clients" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api-products" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1757592918473</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="C">
+      <created>1757593607159</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757593607159</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
