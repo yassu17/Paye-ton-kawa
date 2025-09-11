@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="152a0db5-5be5-4b33-a398-00bd166372f7" name="Changes" comment="C" />
+    <list default="true" id="152a0db5-5be5-4b33-a398-00bd166372f7" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/api-orders/dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-clients" beforeDir="false" afterPath="$PROJECT_DIR$/api-clients" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-clients/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api-clients/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-clients/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api-clients/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-clients/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-clients/sonar-project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-orders" beforeDir="false" afterPath="$PROJECT_DIR$/api-orders" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-orders/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api-orders/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-orders/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-orders/sonar-project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-products" beforeDir="false" afterPath="$PROJECT_DIR$/api-products" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-products/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/api-products/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-products/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-products/sonar-project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/prometheus.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api-products" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api-orders" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -23,6 +38,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "last_opened_file_path": "C:/Users/YASSIN/PayeTonKawa",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
@@ -86,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1757594269953</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test">
+      <created>1757594820515</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757594820515</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="C" />
-    <option name="LAST_COMMIT_MESSAGE" value="C" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>

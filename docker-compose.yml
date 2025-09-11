@@ -1,0 +1,48 @@
+version: "3.9"
+
+services:
+  mongo:
+    image: mongo:7
+    ports:
+      - "27017:27017"
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  api-clients:
+    build: ./api-clients
+    env_file: ./api-clients/.env
+    depends_on: [mongo, rabbitmq]
+    ports:
+      - "8001:8000"
+
+  api-orders:
+    build: ./api-orders
+    env_file: ./api-orders/.env
+    depends_on: [mongo, rabbitmq]
+    ports:
+      - "8002:8000"
+
+  api-products:
+    build: ./api-products
+    env_file: ./api-products/.env
+    depends_on: [mongo, rabbitmq]
+    ports:
+      - "8003:8000"
+
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    depends_on: [api-clients, api-orders, api-products, rabbitmq]
+
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    depends_on: [prometheus]
